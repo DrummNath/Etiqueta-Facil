@@ -106,10 +106,13 @@ Data do build: 07/10/2025
     <label>Código do Emporium:</label>
     <input type="text" id="codigo" placeholder="Ex: 1110XXX00000">
 
-    <button class="btn-pdf" onclick="gerarPDF()">👁 Gerar</button>
+    <button class="btn-pdf" onclick="gerarPDF()">👁️ Gerar</button>
 
-    <script>
-    // Ativador da função ao pressionar Enter
+  </div>
+  <div class="credit">© 2025 - Pedro e Nathalia · Gerador de Etiquetas Fácil  </div>
+  <script>
+
+ // Ativador da função ao pressionar Enter
     document.addEventListener("keydown", function(event) {
     // Verifica se a tecla pressionada foi "Enter"
     if (event.key === "Enter") {
@@ -118,16 +121,6 @@ Data do build: 07/10/2025
     }
   });
 
-  // Sua função de geração de PDF (exemplo)
-  function gerarPDF() {
-    alert("Função gerarPDF chamada!");
-    // Aqui você coloca sua lógica para gerar o PDF
-  }
-  </script>
-
-  </div>
-  <div class="credit">© 2025 - Pedro e Nathalia · Gerador de Etiquetas Fácil  </div>
-  <script>
     function gerarPDF() {
       const { jsPDF } = window.jspdf;
       const doc = new jsPDF();
