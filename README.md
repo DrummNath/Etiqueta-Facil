@@ -112,7 +112,7 @@ Este projeto é licenciado sob a **Licença MIT** — uso livre, modificação e
 
 © 2025 - Todos os direitos reservados.
 Gerador de Etiquetas Fácil — v3
-Criado com ❤️ por Nathalia Drummond e Pedro Fraga.
+Criado por Nathalia Drummond e Pedro Fraga.
 
 
 
