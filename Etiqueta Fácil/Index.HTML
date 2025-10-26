@@ -162,7 +162,16 @@ Data do build: 07/10/2025
       const blob = doc.output("blob");
       const blobURL = URL.createObjectURL(blob);
       window.open(blobURL, "_blank");
+
+// 🔹 Limpa os campos após gerar o PDF
+      document.getElementById("nome").value = "";
+      document.getElementById("funcao").value = "";
+      document.getElementById("codigo").value = "";
+
+      // (opcional) Retorna o foco para o primeiro campo
+      document.getElementById("nome").focus();
     }
   </script>
 </body>
 </html>
+
